@@ -1,10 +1,32 @@
----
-name: Custom issue template
-about: Describe this issue template's purpose here.
-title: ''
-labels: ''
-assignees: ''
-
----
+name: Submit Content
+description: Submit an article, blog post, video, or other links.
+title: "🔗 Link to content here 🔗"
+body:
+  - type: dropdown
+    id: tech
+    attributes:
+      label: Which is the best target audience for this content?
+      options:
+        - "--Choose--"
+        - .NET
+        - C/C++
+        - Go
+        - Java
+        - JavaScript/Web
+        - Kotlin                        
+        - PHP
+        - Python
+        - Ruby
+        - Rust
+        - AI
+        - Architecture        
+        - DevOps                
+        - People/Career
+        - Performance Tools
+        - Software Development
+        - Other
+      default: 0
+    validations:
+      required: false
 
 
