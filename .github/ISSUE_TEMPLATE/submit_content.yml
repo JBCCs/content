@@ -1,6 +1,5 @@
 name: Submit Content
 description: "Submit an article, blog post, video, or other links."
-about: Content 
 title: "🔗 Link to content here 🔗"
 body:
   - type: dropdown
