@@ -1,6 +1,6 @@
 name: Submit Content
 description: "Submit an article, blog post, video, or other links."
-title: "📃 Title"
+title: Title
 body:
   - type: input
     id: link
