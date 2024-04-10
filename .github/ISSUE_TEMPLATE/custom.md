@@ -1,11 +1,12 @@
 name: Submit Content
-description: Submit an article, blog post, video, or other links.
+description: "Submit an article, blog post, video, or other links."
+about: Content 
 title: "🔗 Link to content here 🔗"
 body:
   - type: dropdown
     id: tech
     attributes:
-      label: Which is the best target audience for this content?
+      label: "Which is the best target audience for this content?"
       options:
         - "--Choose--"
         - .NET
@@ -28,5 +29,3 @@ body:
       default: 0
     validations:
       required: false
-
-
