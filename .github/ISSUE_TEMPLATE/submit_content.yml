@@ -1,7 +1,11 @@
 name: Submit Content
 description: "Submit an article, blog post, video, or other links."
-title: "🔗 Link to content here 🔗"
+title: "📃 Title"
 body:
+  - type: input
+    id: link
+    attributes:
+      label: "🔗 Link to content"
   - type: dropdown
     id: tech
     attributes:
